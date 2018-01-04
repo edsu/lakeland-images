@@ -1,0 +1,142 @@
+{
+  "id": 333,
+  "url": "http://lakeland.mith.us/api/files/333",
+  "file_urls": {
+    "original": "http://lakeland.mith.us/files/original/lakeland-melanie-sharps-infrom-of-well-at-sharps-residence_c7c87ab319.jpg",
+    "fullsize": "http://lakeland.mith.us/files/fullsize/lakeland-melanie-sharps-infrom-of-well-at-sharps-residence_c7c87ab319.jpg",
+    "thumbnail": "http://lakeland.mith.us/files/thumbnails/lakeland-melanie-sharps-infrom-of-well-at-sharps-residence_c7c87ab319.jpg",
+    "square_thumbnail": "http://lakeland.mith.us/files/square_thumbnails/lakeland-melanie-sharps-infrom-of-well-at-sharps-residence_c7c87ab319.jpg"
+  },
+  "added": "2009-12-07T18:54:17+00:00",
+  "modified": "2017-12-28T11:32:07+00:00",
+  "filename": "lakeland-melanie-sharps-infrom-of-well-at-sharps-residence_c7c87ab319.jpg",
+  "authentication": "891a1a5ad51d9f026a40780533fad14d",
+  "has_derivative_image": true,
+  "mime_type": "image/jpeg",
+  "order": null,
+  "original_filename": "Lakeland-Melanie Sharps infrom of well at Sharps residence.JPG",
+  "size": 55575,
+  "stored": true,
+  "type_os": "",
+  "metadata": null,
+  "item": {
+    "id": 408,
+    "url": "http://lakeland.mith.us/api/items/408",
+    "resource": "items"
+  },
+  "element_texts": [
+    {
+      "html": false,
+      "text": "563",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 72,
+        "url": "http://lakeland.mith.us/api/elements/72",
+        "name": "Width",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "868",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 73,
+        "url": "http://lakeland.mith.us/api/elements/73",
+        "name": "Height",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "8",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 74,
+        "url": "http://lakeland.mith.us/api/elements/74",
+        "name": "Bit Depth",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "3",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 75,
+        "url": "http://lakeland.mith.us/api/elements/75",
+        "name": "Channels",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "FileName:lakeland-melanie-sharps-infrom-of-well-at-sharps-residence_c7c87ab319.jpg\nFileDateTime:1260212057\nFileSize:55575\nFileType:2\nMimeType:image/jpeg\nSectionsFound:ANY_TAG, IFD0, EXIF\nCOMPUTED:\n\thtml:width=\"563\" height=\"868\"\n\tHeight:868\n\tWidth:563\n\tIsColor:1\n\tByteOrderMotorola:0\n\tUserComment:LEAD Technologies Inc. V1.01\n\nExif_IFD_Pointer:26\nUserComment:LEAD Technologies Inc. V1.01\n",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 76,
+        "url": "http://lakeland.mith.us/api/elements/76",
+        "name": "Exif String",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "a:9:{s:8:\"FileName\";s:73:\"lakeland-melanie-sharps-infrom-of-well-at-sharps-residence_c7c87ab319.jpg\";s:12:\"FileDateTime\";i:1260212057;s:8:\"FileSize\";i:55575;s:8:\"FileType\";i:2;s:8:\"MimeType\";s:10:\"image/jpeg\";s:13:\"SectionsFound\";s:19:\"ANY_TAG, IFD0, EXIF\";s:8:\"COMPUTED\";a:6:{s:4:\"html\";s:24:\"width=\"563\" height=\"868\"\";s:6:\"Height\";i:868;s:5:\"Width\";i:563;s:7:\"IsColor\";i:1;s:17:\"ByteOrderMotorola\";i:0;s:11:\"UserComment\";s:28:\"LEAD Technologies Inc. V1.01\";}s:16:\"Exif_IFD_Pointer\";i:26;s:11:\"UserComment\";s:28:\"LEAD Technologies Inc. V1.01\";}",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 77,
+        "url": "http://lakeland.mith.us/api/elements/77",
+        "name": "Exif Array",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "Array\n(\n)\n",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 78,
+        "url": "http://lakeland.mith.us/api/elements/78",
+        "name": "IPTC String",
+        "resource": "elements"
+      }
+    }
+  ],
+  "extended_resources": []
+}

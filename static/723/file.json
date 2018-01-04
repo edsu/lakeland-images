@@ -1,0 +1,126 @@
+{
+  "id": 767,
+  "url": "http://lakeland.mith.us/api/files/767",
+  "file_urls": {
+    "original": "http://lakeland.mith.us/files/original/eda58f0f9de5858023cc9bd03c12a775.jpg",
+    "fullsize": "http://lakeland.mith.us/files/fullsize/eda58f0f9de5858023cc9bd03c12a775.jpg",
+    "thumbnail": "http://lakeland.mith.us/files/thumbnails/eda58f0f9de5858023cc9bd03c12a775.jpg",
+    "square_thumbnail": "http://lakeland.mith.us/files/square_thumbnails/eda58f0f9de5858023cc9bd03c12a775.jpg"
+  },
+  "added": "2013-03-13T19:54:02+00:00",
+  "modified": "2017-12-28T11:32:07+00:00",
+  "filename": "eda58f0f9de5858023cc9bd03c12a775.jpg",
+  "authentication": "590089421002e681d61202b78efd0048",
+  "has_derivative_image": true,
+  "mime_type": "image/jpeg",
+  "order": null,
+  "original_filename": "Harry Braxton - Usher AME church.jpg",
+  "size": 837999,
+  "stored": true,
+  "type_os": "",
+  "metadata": null,
+  "item": {
+    "id": 723,
+    "url": "http://lakeland.mith.us/api/items/723",
+    "resource": "items"
+  },
+  "element_texts": [
+    {
+      "html": false,
+      "text": "1636",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 72,
+        "url": "http://lakeland.mith.us/api/elements/72",
+        "name": "Width",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "967",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 73,
+        "url": "http://lakeland.mith.us/api/elements/73",
+        "name": "Height",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "8",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 74,
+        "url": "http://lakeland.mith.us/api/elements/74",
+        "name": "Bit Depth",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "1",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 75,
+        "url": "http://lakeland.mith.us/api/elements/75",
+        "name": "Channels",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "FileName:eda58f0f9de5858023cc9bd03c12a775.jpg\nFileDateTime:1363204442\nFileSize:837999\nFileType:2\nMimeType:image/jpeg\nSectionsFound:ANY_TAG, IFD0, THUMBNAIL, EXIF\nCOMPUTED:\n\thtml:width=\"1636\" height=\"967\"\n\tHeight:967\n\tWidth:1636\n\tIsColor:0\n\tByteOrderMotorola:1\n\tThumbnail.FileType:2\n\tThumbnail.MimeType:image/jpeg\n\nOrientation:1\nXResolution:3000000/10000\nYResolution:3000000/10000\nResolutionUnit:2\nSoftware:Adobe Photoshop CS3 Windows\nDateTime:2013:03:11 20:10:10\nExif_IFD_Pointer:164\nTHUMBNAIL:\n\tCompression:6\n\tXResolution:72/1\n\tYResolution:72/1\n\tResolutionUnit:2\n\tJPEGInterchangeFormat:302\n\tJPEGInterchangeFormatLength:5847\n\nColorSpace:65535\nExifImageWidth:1636\nExifImageLength:967\n",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 76,
+        "url": "http://lakeland.mith.us/api/elements/76",
+        "name": "Exif String",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "a:18:{s:8:\"FileName\";s:36:\"eda58f0f9de5858023cc9bd03c12a775.jpg\";s:12:\"FileDateTime\";i:1363204442;s:8:\"FileSize\";i:837999;s:8:\"FileType\";i:2;s:8:\"MimeType\";s:10:\"image/jpeg\";s:13:\"SectionsFound\";s:30:\"ANY_TAG, IFD0, THUMBNAIL, EXIF\";s:8:\"COMPUTED\";a:7:{s:4:\"html\";s:25:\"width=\"1636\" height=\"967\"\";s:6:\"Height\";i:967;s:5:\"Width\";i:1636;s:7:\"IsColor\";i:0;s:17:\"ByteOrderMotorola\";i:1;s:18:\"Thumbnail.FileType\";i:2;s:18:\"Thumbnail.MimeType\";s:10:\"image/jpeg\";}s:11:\"Orientation\";i:1;s:11:\"XResolution\";s:13:\"3000000/10000\";s:11:\"YResolution\";s:13:\"3000000/10000\";s:14:\"ResolutionUnit\";i:2;s:8:\"Software\";s:27:\"Adobe Photoshop CS3 Windows\";s:8:\"DateTime\";s:19:\"2013:03:11 20:10:10\";s:16:\"Exif_IFD_Pointer\";i:164;s:9:\"THUMBNAIL\";a:6:{s:11:\"Compression\";i:6;s:11:\"XResolution\";s:4:\"72/1\";s:11:\"YResolution\";s:4:\"72/1\";s:14:\"ResolutionUnit\";i:2;s:21:\"JPEGInterchangeFormat\";i:302;s:27:\"JPEGInterchangeFormatLength\";i:5847;}s:10:\"ColorSpace\";i:65535;s:14:\"ExifImageWidth\";i:1636;s:15:\"ExifImageLength\";i:967;}",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 77,
+        "url": "http://lakeland.mith.us/api/elements/77",
+        "name": "Exif Array",
+        "resource": "elements"
+      }
+    }
+  ],
+  "extended_resources": []
+}

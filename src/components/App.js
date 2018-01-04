@@ -1,19 +1,23 @@
-import React from 'react'
+import React, { Component } from 'react'
 import { Route } from 'react-router-dom'
 import Header from './Header'
 import Footer from './Footer'
-import Counter from '../containers/Counter'
+import Images from '../containers/Images'
 
 import style from './App.css'
 
-const App = () => {
-  return (
-    <div className={style.App} id="App">
-      <Header />
-      <Route exact path="/" component={Counter} />
-      <Footer />
-    </div>
-  )
+class App extends Component {
+
+  render() {
+    return (
+      <div className={style.App} id="App">
+        <Header />
+        <Route exact path="*" component={Images} />
+        <Footer />
+      </div>
+    )
+  }
+
 }
 
 export default App

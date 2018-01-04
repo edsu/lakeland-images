@@ -1,0 +1,94 @@
+{
+  "id": 562,
+  "url": "http://lakeland.mith.us/api/files/562",
+  "file_urls": {
+    "original": "http://lakeland.mith.us/files/original/eb823786e09fab677543f70f1a6eccc4.tif",
+    "fullsize": "http://lakeland.mith.us/files/fullsize/eb823786e09fab677543f70f1a6eccc4.jpg",
+    "thumbnail": "http://lakeland.mith.us/files/thumbnails/eb823786e09fab677543f70f1a6eccc4.jpg",
+    "square_thumbnail": "http://lakeland.mith.us/files/square_thumbnails/eb823786e09fab677543f70f1a6eccc4.jpg"
+  },
+  "added": "2011-04-10T00:54:15+00:00",
+  "modified": "2017-12-28T11:32:07+00:00",
+  "filename": "eb823786e09fab677543f70f1a6eccc4.tif",
+  "authentication": "dd654a7d5f14bea7aa05b5226d48696d",
+  "has_derivative_image": true,
+  "mime_type": "image/tiff",
+  "order": null,
+  "original_filename": "J-010-1-001011.tif",
+  "size": 24432816,
+  "stored": true,
+  "type_os": "",
+  "metadata": null,
+  "item": {
+    "id": 534,
+    "url": "http://lakeland.mith.us/api/items/534",
+    "resource": "items"
+  },
+  "element_texts": [
+    {
+      "html": false,
+      "text": "2401",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 72,
+        "url": "http://lakeland.mith.us/api/elements/72",
+        "name": "Width",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "3392",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 73,
+        "url": "http://lakeland.mith.us/api/elements/73",
+        "name": "Height",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "FileName:eb823786e09fab677543f70f1a6eccc4.tif\nFileDateTime:1302396853\nFileSize:24432816\nFileType:7\nMimeType:image/tiff\nSectionsFound:ANY_TAG, IFD0\nCOMPUTED:\n\thtml:width=\"2401\" height=\"3392\"\n\tHeight:3392\n\tWidth:2401\n\tIsColor:1\n\tByteOrderMotorola:0\n\nNewSubFile:2\nImageWidth:2401\nImageLength:3392\nBitsPerSample:\n\t0:8\n\t1:8\n\t2:8\n\nCompression:1\nPhotometricInterpretation:2\nStripOffsets:240\nSamplesPerPixel:3\nRowsPerStrip:3392\nStripByteCounts:24432576\nMinSampleValue:0\nMaxSampleValue:255\nXResolution:300/1\nYResolution:300/1\nPlanarConfiguration:1\nResolutionUnit:2\nPageNumber:\n\t0:0\n\t1:0\n\n",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 76,
+        "url": "http://lakeland.mith.us/api/elements/76",
+        "name": "Exif String",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "a:24:{s:8:\"FileName\";s:36:\"eb823786e09fab677543f70f1a6eccc4.tif\";s:12:\"FileDateTime\";i:1302396853;s:8:\"FileSize\";i:24432816;s:8:\"FileType\";i:7;s:8:\"MimeType\";s:10:\"image/tiff\";s:13:\"SectionsFound\";s:13:\"ANY_TAG, IFD0\";s:8:\"COMPUTED\";a:5:{s:4:\"html\";s:26:\"width=\"2401\" height=\"3392\"\";s:6:\"Height\";i:3392;s:5:\"Width\";i:2401;s:7:\"IsColor\";i:1;s:17:\"ByteOrderMotorola\";i:0;}s:10:\"NewSubFile\";i:2;s:10:\"ImageWidth\";i:2401;s:11:\"ImageLength\";i:3392;s:13:\"BitsPerSample\";a:3:{i:0;i:8;i:1;i:8;i:2;i:8;}s:11:\"Compression\";i:1;s:25:\"PhotometricInterpretation\";i:2;s:12:\"StripOffsets\";i:240;s:15:\"SamplesPerPixel\";i:3;s:12:\"RowsPerStrip\";i:3392;s:15:\"StripByteCounts\";i:24432576;s:14:\"MinSampleValue\";i:0;s:14:\"MaxSampleValue\";i:255;s:11:\"XResolution\";s:5:\"300/1\";s:11:\"YResolution\";s:5:\"300/1\";s:19:\"PlanarConfiguration\";i:1;s:14:\"ResolutionUnit\";i:2;s:10:\"PageNumber\";a:2:{i:0;i:0;i:1;i:0;}}",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 77,
+        "url": "http://lakeland.mith.us/api/elements/77",
+        "name": "Exif Array",
+        "resource": "elements"
+      }
+    }
+  ],
+  "extended_resources": []
+}

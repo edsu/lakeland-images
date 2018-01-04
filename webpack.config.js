@@ -18,7 +18,7 @@ module.exports = {
 
   output: {
     path:   DIST_DIR,
-    publicPath: "/",
+    // publicPath: "/",
     filename: 'bundle.js'
   },
 
@@ -32,7 +32,7 @@ module.exports = {
     new webpack.NamedModulesPlugin(),
     new webpack.HotModuleReplacementPlugin(),
     new CopyWebpackPlugin([
-      {from: './static/**/*', to: 'static'}
+      {from: './static/**/*', to: DIST_DIR}
     ])
   ],
 

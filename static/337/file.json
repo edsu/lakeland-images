@@ -1,0 +1,222 @@
+{
+  "id": 236,
+  "url": "http://lakeland.mith.us/api/files/236",
+  "file_urls": {
+    "original": "http://lakeland.mith.us/files/original/httpdlgetdropboxcomu48885lchp-cp-imagescpur-021_f417cfd5d1.jpg",
+    "fullsize": "http://lakeland.mith.us/files/fullsize/httpdlgetdropboxcomu48885lchp-cp-imagescpur-021_f417cfd5d1.jpg",
+    "thumbnail": "http://lakeland.mith.us/files/thumbnails/httpdlgetdropboxcomu48885lchp-cp-imagescpur-021_f417cfd5d1.jpg",
+    "square_thumbnail": "http://lakeland.mith.us/files/square_thumbnails/httpdlgetdropboxcomu48885lchp-cp-imagescpur-021_f417cfd5d1.jpg"
+  },
+  "added": "2009-10-20T23:05:22+00:00",
+  "modified": "2017-12-28T11:32:07+00:00",
+  "filename": "httpdlgetdropboxcomu48885lchp-cp-imagescpur-021_f417cfd5d1.jpg",
+  "authentication": "9c9ae7832f8498b1837f96f23894fa11",
+  "has_derivative_image": true,
+  "mime_type": "image/jpeg",
+  "order": null,
+  "original_filename": "http://dl.getdropbox.com/u/48885/LCHP CP Images/CPUR-021.jpg",
+  "size": 525664,
+  "stored": true,
+  "type_os": "",
+  "metadata": null,
+  "item": {
+    "id": 337,
+    "url": "http://lakeland.mith.us/api/items/337",
+    "resource": "items"
+  },
+  "element_texts": [
+    {
+      "html": false,
+      "text": "2401",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 72,
+        "url": "http://lakeland.mith.us/api/elements/72",
+        "name": "Width",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "1386",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 73,
+        "url": "http://lakeland.mith.us/api/elements/73",
+        "name": "Height",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "8",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 74,
+        "url": "http://lakeland.mith.us/api/elements/74",
+        "name": "Bit Depth",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "1",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 75,
+        "url": "http://lakeland.mith.us/api/elements/75",
+        "name": "Channels",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "FileName:httpdlgetdropboxcomu48885lchp-cp-imagescpur-021_f417cfd5d1.jpg\nFileDateTime:1256079922\nFileSize:525664\nFileType:2\nMimeType:image/jpeg\nSectionsFound:ANY_TAG, IFD0, THUMBNAIL, EXIF\nCOMPUTED:\n\thtml:width=\"2401\" height=\"1386\"\n\tHeight:1386\n\tWidth:2401\n\tIsColor:0\n\tByteOrderMotorola:0\n\tThumbnail.FileType:2\n\tThumbnail.MimeType:image/jpeg\n\nImageWidth:2401\nImageLength:1386\nBitsPerSample:8\nCompression:1\nPhotometricInterpretation:1\nOrientation:1\nSamplesPerPixel:1\nXResolution:3000000/10000\nYResolution:3000000/10000\nResolutionUnit:2\nSoftware:Adobe Photoshop CS4 Windows\nDateTime:2009:10:17 16:05:58\nExif_IFD_Pointer:236\nTHUMBNAIL:\n\tCompression:6\n\tXResolution:72/1\n\tYResolution:72/1\n\tResolutionUnit:2\n\tJPEGInterchangeFormat:374\n\tJPEGInterchangeFormatLength:4175\n\nColorSpace:65535\nExifImageWidth:2401\nExifImageLength:1386\n",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 76,
+        "url": "http://lakeland.mith.us/api/elements/76",
+        "name": "Exif String",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "a:24:{s:8:\"FileName\";s:62:\"httpdlgetdropboxcomu48885lchp-cp-imagescpur-021_f417cfd5d1.jpg\";s:12:\"FileDateTime\";i:1256079922;s:8:\"FileSize\";i:525664;s:8:\"FileType\";i:2;s:8:\"MimeType\";s:10:\"image/jpeg\";s:13:\"SectionsFound\";s:30:\"ANY_TAG, IFD0, THUMBNAIL, EXIF\";s:8:\"COMPUTED\";a:7:{s:4:\"html\";s:26:\"width=\"2401\" height=\"1386\"\";s:6:\"Height\";i:1386;s:5:\"Width\";i:2401;s:7:\"IsColor\";i:0;s:17:\"ByteOrderMotorola\";i:0;s:18:\"Thumbnail.FileType\";i:2;s:18:\"Thumbnail.MimeType\";s:10:\"image/jpeg\";}s:10:\"ImageWidth\";i:2401;s:11:\"ImageLength\";i:1386;s:13:\"BitsPerSample\";i:8;s:11:\"Compression\";i:1;s:25:\"PhotometricInterpretation\";i:1;s:11:\"Orientation\";i:1;s:15:\"SamplesPerPixel\";i:1;s:11:\"XResolution\";s:13:\"3000000/10000\";s:11:\"YResolution\";s:13:\"3000000/10000\";s:14:\"ResolutionUnit\";i:2;s:8:\"Software\";s:27:\"Adobe Photoshop CS4 Windows\";s:8:\"DateTime\";s:19:\"2009:10:17 16:05:58\";s:16:\"Exif_IFD_Pointer\";i:236;s:9:\"THUMBNAIL\";a:6:{s:11:\"Compression\";i:6;s:11:\"XResolution\";s:4:\"72/1\";s:11:\"YResolution\";s:4:\"72/1\";s:14:\"ResolutionUnit\";i:2;s:21:\"JPEGInterchangeFormat\";i:374;s:27:\"JPEGInterchangeFormatLength\";i:4175;}s:10:\"ColorSpace\";i:65535;s:14:\"ExifImageWidth\";i:2401;s:15:\"ExifImageLength\";i:1386;}",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 77,
+        "url": "http://lakeland.mith.us/api/elements/77",
+        "name": "Exif Array",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "Array\n(\n)\n",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 78,
+        "url": "http://lakeland.mith.us/api/elements/78",
+        "name": "IPTC String",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "4905 Navahoe Street, Lakeland Tavern",
+      "element_set": {
+        "id": 1,
+        "url": "http://lakeland.mith.us/api/element_sets/1",
+        "name": "Dublin Core",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 50,
+        "url": "http://lakeland.mith.us/api/elements/50",
+        "name": "Title",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "Lakeland Tavern",
+      "element_set": {
+        "id": 1,
+        "url": "http://lakeland.mith.us/api/element_sets/1",
+        "name": "Dublin Core",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 49,
+        "url": "http://lakeland.mith.us/api/elements/49",
+        "name": "Subject",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "cir. 1968 photo of Lakeland Tavern taken by Fredric B. Lauterbach, SRA for urban renewal property appraisal. Located at 4905 Navahoe Street, Block 12 Lot 2. Owner at time of appraisal: Leonard Smith; owned since December 23, 1966. ",
+      "element_set": {
+        "id": 1,
+        "url": "http://lakeland.mith.us/api/element_sets/1",
+        "name": "Dublin Core",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 41,
+        "url": "http://lakeland.mith.us/api/elements/41",
+        "name": "Description",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "Fredric B. Lauterbach, SRA",
+      "element_set": {
+        "id": 1,
+        "url": "http://lakeland.mith.us/api/element_sets/1",
+        "name": "Dublin Core",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 39,
+        "url": "http://lakeland.mith.us/api/elements/39",
+        "name": "Creator",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "City of College Park",
+      "element_set": {
+        "id": 1,
+        "url": "http://lakeland.mith.us/api/element_sets/1",
+        "name": "Dublin Core",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 48,
+        "url": "http://lakeland.mith.us/api/elements/48",
+        "name": "Source",
+        "resource": "elements"
+      }
+    }
+  ],
+  "extended_resources": []
+}

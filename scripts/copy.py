@@ -58,4 +58,5 @@ for dirpath, dirnames, filenames in os.walk(data_dir):
             if found:
                 items.append(metadata(item))
 
-json.dump(items, open(join(output_dir, 'items.json'), 'w'), indent=2)
+js = 'var ITEMS=%s' % json.dumps(items)
+open(join(output_dir, 'items.js'), 'w').write(js)
