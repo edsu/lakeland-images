@@ -1,0 +1,78 @@
+{
+  "id": 761,
+  "url": "http://lakeland.mith.us/api/files/761",
+  "file_urls": {
+    "original": "http://lakeland.mith.us/files/original/7d9ec2e86326e07dd8ffda47dede2d1a.png",
+    "fullsize": "http://lakeland.mith.us/files/fullsize/7d9ec2e86326e07dd8ffda47dede2d1a.jpg",
+    "thumbnail": "http://lakeland.mith.us/files/thumbnails/7d9ec2e86326e07dd8ffda47dede2d1a.jpg",
+    "square_thumbnail": "http://lakeland.mith.us/files/square_thumbnails/7d9ec2e86326e07dd8ffda47dede2d1a.jpg"
+  },
+  "added": "2013-03-13T19:00:57+00:00",
+  "modified": "2017-12-28T11:32:07+00:00",
+  "filename": "7d9ec2e86326e07dd8ffda47dede2d1a.png",
+  "authentication": "85a5a28e057429c3e6f0174e4e9ea3f7",
+  "has_derivative_image": true,
+  "mime_type": "image/png",
+  "order": null,
+  "original_filename": "Screen Shot 2013-03-13 at 2.59.21 PM.png",
+  "size": 70255,
+  "stored": true,
+  "type_os": "",
+  "metadata": null,
+  "item": {
+    "id": 717,
+    "url": "http://lakeland.mith.us/api/items/717",
+    "resource": "items"
+  },
+  "element_texts": [
+    {
+      "html": false,
+      "text": "610",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 72,
+        "url": "http://lakeland.mith.us/api/elements/72",
+        "name": "Width",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "352",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 73,
+        "url": "http://lakeland.mith.us/api/elements/73",
+        "name": "Height",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "8",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 74,
+        "url": "http://lakeland.mith.us/api/elements/74",
+        "name": "Bit Depth",
+        "resource": "elements"
+      }
+    }
+  ],
+  "extended_resources": []
+}

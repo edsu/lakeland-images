@@ -1,0 +1,142 @@
+{
+  "id": 317,
+  "url": "http://lakeland.mith.us/api/files/317",
+  "file_urls": {
+    "original": "http://lakeland.mith.us/files/original/block-35,-lots9-11_152af3e3dd.jpg",
+    "fullsize": "http://lakeland.mith.us/files/fullsize/block-35,-lots9-11_152af3e3dd.jpg",
+    "thumbnail": "http://lakeland.mith.us/files/thumbnails/block-35,-lots9-11_152af3e3dd.jpg",
+    "square_thumbnail": "http://lakeland.mith.us/files/square_thumbnails/block-35,-lots9-11_152af3e3dd.jpg"
+  },
+  "added": "2009-12-07T03:03:17+00:00",
+  "modified": "2017-12-28T11:32:07+00:00",
+  "filename": "block-35,-lots9-11_152af3e3dd.jpg",
+  "authentication": "c94a924eafd7750c5c8a9ef56dc7c89e",
+  "has_derivative_image": true,
+  "mime_type": "image/jpeg",
+  "order": null,
+  "original_filename": "block 35, lots9-11.jpg",
+  "size": 77176,
+  "stored": true,
+  "type_os": "",
+  "metadata": null,
+  "item": {
+    "id": 396,
+    "url": "http://lakeland.mith.us/api/items/396",
+    "resource": "items"
+  },
+  "element_texts": [
+    {
+      "html": false,
+      "text": "960",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 72,
+        "url": "http://lakeland.mith.us/api/elements/72",
+        "name": "Width",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "720",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 73,
+        "url": "http://lakeland.mith.us/api/elements/73",
+        "name": "Height",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "8",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 74,
+        "url": "http://lakeland.mith.us/api/elements/74",
+        "name": "Bit Depth",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "3",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 75,
+        "url": "http://lakeland.mith.us/api/elements/75",
+        "name": "Channels",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "FileName:block-35,-lots9-11_152af3e3dd.jpg\nFileDateTime:1260154997\nFileSize:77176\nFileType:2\nMimeType:image/jpeg\nSectionsFound:\nCOMPUTED:\n\thtml:width=\"960\" height=\"720\"\n\tHeight:720\n\tWidth:960\n\tIsColor:1\n\n",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 76,
+        "url": "http://lakeland.mith.us/api/elements/76",
+        "name": "Exif String",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "a:7:{s:8:\"FileName\";s:33:\"block-35,-lots9-11_152af3e3dd.jpg\";s:12:\"FileDateTime\";i:1260154997;s:8:\"FileSize\";i:77176;s:8:\"FileType\";i:2;s:8:\"MimeType\";s:10:\"image/jpeg\";s:13:\"SectionsFound\";s:0:\"\";s:8:\"COMPUTED\";a:4:{s:4:\"html\";s:24:\"width=\"960\" height=\"720\"\";s:6:\"Height\";i:720;s:5:\"Width\";i:960;s:7:\"IsColor\";i:1;}}",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 77,
+        "url": "http://lakeland.mith.us/api/elements/77",
+        "name": "Exif Array",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "Array\n(\n)\n",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 78,
+        "url": "http://lakeland.mith.us/api/elements/78",
+        "name": "IPTC String",
+        "resource": "elements"
+      }
+    }
+  ],
+  "extended_resources": []
+}

@@ -1,0 +1,142 @@
+{
+  "id": 268,
+  "url": "http://lakeland.mith.us/api/files/268",
+  "file_urls": {
+    "original": "http://lakeland.mith.us/files/original/aerial-cp-airport-1911_4f65f7e745.jpg",
+    "fullsize": "http://lakeland.mith.us/files/fullsize/aerial-cp-airport-1911_4f65f7e745.jpg",
+    "thumbnail": "http://lakeland.mith.us/files/thumbnails/aerial-cp-airport-1911_4f65f7e745.jpg",
+    "square_thumbnail": "http://lakeland.mith.us/files/square_thumbnails/aerial-cp-airport-1911_4f65f7e745.jpg"
+  },
+  "added": "2009-11-10T16:14:59+00:00",
+  "modified": "2017-12-28T11:32:07+00:00",
+  "filename": "aerial-cp-airport-1911_4f65f7e745.jpg",
+  "authentication": "0f153d0656411b5b054ed1487188c891",
+  "has_derivative_image": true,
+  "mime_type": "image/jpeg",
+  "order": null,
+  "original_filename": "aerial CP AIRPORT 1911.jpg",
+  "size": 193497,
+  "stored": true,
+  "type_os": "",
+  "metadata": null,
+  "item": {
+    "id": 363,
+    "url": "http://lakeland.mith.us/api/items/363",
+    "resource": "items"
+  },
+  "element_texts": [
+    {
+      "html": false,
+      "text": "1458",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 72,
+        "url": "http://lakeland.mith.us/api/elements/72",
+        "name": "Width",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "1110",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 73,
+        "url": "http://lakeland.mith.us/api/elements/73",
+        "name": "Height",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "8",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 74,
+        "url": "http://lakeland.mith.us/api/elements/74",
+        "name": "Bit Depth",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "3",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 75,
+        "url": "http://lakeland.mith.us/api/elements/75",
+        "name": "Channels",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "FileName:aerial-cp-airport-1911_4f65f7e745.jpg\nFileDateTime:1257869699\nFileSize:193497\nFileType:2\nMimeType:image/jpeg\nSectionsFound:\nCOMPUTED:\n\thtml:width=\"1458\" height=\"1110\"\n\tHeight:1110\n\tWidth:1458\n\tIsColor:1\n\n",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 76,
+        "url": "http://lakeland.mith.us/api/elements/76",
+        "name": "Exif String",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "a:7:{s:8:\"FileName\";s:37:\"aerial-cp-airport-1911_4f65f7e745.jpg\";s:12:\"FileDateTime\";i:1257869699;s:8:\"FileSize\";i:193497;s:8:\"FileType\";i:2;s:8:\"MimeType\";s:10:\"image/jpeg\";s:13:\"SectionsFound\";s:0:\"\";s:8:\"COMPUTED\";a:4:{s:4:\"html\";s:26:\"width=\"1458\" height=\"1110\"\";s:6:\"Height\";i:1110;s:5:\"Width\";i:1458;s:7:\"IsColor\";i:1;}}",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 77,
+        "url": "http://lakeland.mith.us/api/elements/77",
+        "name": "Exif Array",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "Array\n(\n)\n",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 78,
+        "url": "http://lakeland.mith.us/api/elements/78",
+        "name": "IPTC String",
+        "resource": "elements"
+      }
+    }
+  ],
+  "extended_resources": []
+}

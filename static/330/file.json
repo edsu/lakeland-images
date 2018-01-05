@@ -1,0 +1,142 @@
+{
+  "id": 229,
+  "url": "http://lakeland.mith.us/api/files/229",
+  "file_urls": {
+    "original": "http://lakeland.mith.us/files/original/httpdlgetdropboxcomu48885lchp-cp-imagescpur-014_16aef0696c.jpg",
+    "fullsize": "http://lakeland.mith.us/files/fullsize/httpdlgetdropboxcomu48885lchp-cp-imagescpur-014_16aef0696c.jpg",
+    "thumbnail": "http://lakeland.mith.us/files/thumbnails/httpdlgetdropboxcomu48885lchp-cp-imagescpur-014_16aef0696c.jpg",
+    "square_thumbnail": "http://lakeland.mith.us/files/square_thumbnails/httpdlgetdropboxcomu48885lchp-cp-imagescpur-014_16aef0696c.jpg"
+  },
+  "added": "2009-10-20T23:03:01+00:00",
+  "modified": "2017-12-28T11:32:07+00:00",
+  "filename": "httpdlgetdropboxcomu48885lchp-cp-imagescpur-014_16aef0696c.jpg",
+  "authentication": "9c0b170df45431bcee5fbf838f22fab0",
+  "has_derivative_image": true,
+  "mime_type": "image/jpeg",
+  "order": null,
+  "original_filename": "http://dl.getdropbox.com/u/48885/LCHP CP Images/CPUR-014.jpg",
+  "size": 691479,
+  "stored": true,
+  "type_os": "",
+  "metadata": null,
+  "item": {
+    "id": 330,
+    "url": "http://lakeland.mith.us/api/items/330",
+    "resource": "items"
+  },
+  "element_texts": [
+    {
+      "html": false,
+      "text": "2557",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 72,
+        "url": "http://lakeland.mith.us/api/elements/72",
+        "name": "Width",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "1271",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 73,
+        "url": "http://lakeland.mith.us/api/elements/73",
+        "name": "Height",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "8",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 74,
+        "url": "http://lakeland.mith.us/api/elements/74",
+        "name": "Bit Depth",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "1",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 75,
+        "url": "http://lakeland.mith.us/api/elements/75",
+        "name": "Channels",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "FileName:httpdlgetdropboxcomu48885lchp-cp-imagescpur-014_16aef0696c.jpg\nFileDateTime:1256079781\nFileSize:691479\nFileType:2\nMimeType:image/jpeg\nSectionsFound:ANY_TAG, IFD0, THUMBNAIL, EXIF\nCOMPUTED:\n\thtml:width=\"2557\" height=\"1271\"\n\tHeight:1271\n\tWidth:2557\n\tIsColor:0\n\tByteOrderMotorola:0\n\tThumbnail.FileType:2\n\tThumbnail.MimeType:image/jpeg\n\nImageWidth:2557\nImageLength:1271\nBitsPerSample:8\nCompression:1\nPhotometricInterpretation:1\nOrientation:1\nSamplesPerPixel:1\nXResolution:3000000/10000\nYResolution:3000000/10000\nResolutionUnit:2\nSoftware:Adobe Photoshop CS4 Windows\nDateTime:2009:10:17 16:06:07\nExif_IFD_Pointer:236\nTHUMBNAIL:\n\tCompression:6\n\tXResolution:72/1\n\tYResolution:72/1\n\tResolutionUnit:2\n\tJPEGInterchangeFormat:374\n\tJPEGInterchangeFormatLength:4488\n\nColorSpace:65535\nExifImageWidth:2557\nExifImageLength:1271\n",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 76,
+        "url": "http://lakeland.mith.us/api/elements/76",
+        "name": "Exif String",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "a:24:{s:8:\"FileName\";s:62:\"httpdlgetdropboxcomu48885lchp-cp-imagescpur-014_16aef0696c.jpg\";s:12:\"FileDateTime\";i:1256079781;s:8:\"FileSize\";i:691479;s:8:\"FileType\";i:2;s:8:\"MimeType\";s:10:\"image/jpeg\";s:13:\"SectionsFound\";s:30:\"ANY_TAG, IFD0, THUMBNAIL, EXIF\";s:8:\"COMPUTED\";a:7:{s:4:\"html\";s:26:\"width=\"2557\" height=\"1271\"\";s:6:\"Height\";i:1271;s:5:\"Width\";i:2557;s:7:\"IsColor\";i:0;s:17:\"ByteOrderMotorola\";i:0;s:18:\"Thumbnail.FileType\";i:2;s:18:\"Thumbnail.MimeType\";s:10:\"image/jpeg\";}s:10:\"ImageWidth\";i:2557;s:11:\"ImageLength\";i:1271;s:13:\"BitsPerSample\";i:8;s:11:\"Compression\";i:1;s:25:\"PhotometricInterpretation\";i:1;s:11:\"Orientation\";i:1;s:15:\"SamplesPerPixel\";i:1;s:11:\"XResolution\";s:13:\"3000000/10000\";s:11:\"YResolution\";s:13:\"3000000/10000\";s:14:\"ResolutionUnit\";i:2;s:8:\"Software\";s:27:\"Adobe Photoshop CS4 Windows\";s:8:\"DateTime\";s:19:\"2009:10:17 16:06:07\";s:16:\"Exif_IFD_Pointer\";i:236;s:9:\"THUMBNAIL\";a:6:{s:11:\"Compression\";i:6;s:11:\"XResolution\";s:4:\"72/1\";s:11:\"YResolution\";s:4:\"72/1\";s:14:\"ResolutionUnit\";i:2;s:21:\"JPEGInterchangeFormat\";i:374;s:27:\"JPEGInterchangeFormatLength\";i:4488;}s:10:\"ColorSpace\";i:65535;s:14:\"ExifImageWidth\";i:2557;s:15:\"ExifImageLength\";i:1271;}",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 77,
+        "url": "http://lakeland.mith.us/api/elements/77",
+        "name": "Exif Array",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "Array\n(\n)\n",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 78,
+        "url": "http://lakeland.mith.us/api/elements/78",
+        "name": "IPTC String",
+        "resource": "elements"
+      }
+    }
+  ],
+  "extended_resources": []
+}
