@@ -13,10 +13,10 @@ class Images extends Component {
   }
 
   componentWillMount() {
-    window.ITEMS = this.shuffle(window.ITEMS)
+    this.shuffle(window.DATA.items)
     this.setState({
       loading: true,
-      items: window.ITEMS.slice(0, 12)
+      items: window.DATA.items.slice(0, 12)
     })
   }
 
@@ -43,7 +43,7 @@ class Images extends Component {
     const items = this.state.items
     const start = items.length
     const end = start + 12
-    const newItems = window.ITEMS.slice(start, end)
+    const newItems = window.DATA.items.slice(start, end)
     this.setState({
       items: items.concat(newItems)
     })

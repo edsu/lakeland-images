@@ -20,6 +20,7 @@ import sys
 import json
 
 from shutil import copyfile
+from collections import Counter
 from os.path import join, isdir, dirname
 
 data_dir = sys.argv[1]
@@ -58,8 +59,14 @@ def copy_files(path, item):
             return True
     return False
 
+collections = {}
+counts = Counter()
+
 for dirpath, dirnames, filenames in os.walk(data_dir):
     for filename in filenames:
+        if filename == 'collection.json':
+            coll = json.load(open(join(dirpath, filename)))
+            collections[coll['id']] = metadata(coll)['title']
         if filename == 'item.json':
             item = json.load(open(join(dirpath, filename)))
             if not item or item['item_type'] == None:
@@ -67,9 +74,19 @@ for dirpath, dirnames, filenames in os.walk(data_dir):
             if item['item_type']['name'] != 'Still Image':
                 continue
             found = copy_files(dirpath, item)
-            print(dirpath, found)
             if found:
-                items.append(metadata(item))
+                coll_id = item['collection']['id']
+                coll_name = collections[coll_id]
+                counts.update([coll_name])
+                m = metadata(item)
+                m['collection'] = coll_name
+                items.append(m)
 
-js = 'var ITEMS=%s' % json.dumps(items)
-open(join(output_dir, 'items.js'), 'w').write(js)
+colls = counts.most_common(10)
+
+js = 'var DATA={items: %s, collections: %s};' % (
+    json.dumps(items), 
+    json.dumps(colls)
+)
+
+open(join(output_dir, 'data.js'), 'w').write(js)
