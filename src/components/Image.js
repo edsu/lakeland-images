@@ -1,16 +1,18 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import style from './Image.css'
+// import style from './Image.css'
 
 class Images extends Component {
 
   render() {
+    const i = this.props.item
     return (
-      <div className={style.Image}>
-        <a href={'http://lakeland.umd.edu/items/show/' + this.props.item.id}>
-        <img src={'static/' + this.props.item.id + '/square_thumbnail.jpg'}/>
-        </a>
-      </div>
+      <figure className={'item'} key={'item-' + i.id}>
+        <img src={'static/' + i.id + '/fullsize.jpg'} />
+        <figcaption>
+          {i.title}
+        </figcaption>
+      </figure>
     )
   }
 
