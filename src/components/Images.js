@@ -1,16 +1,31 @@
 import React, { Component } from 'react'
-import Image from './Image'
+import Masonry from 'react-masonry-component'
+// import Image from './Image'
 import style from './Images.css'
 
 class Images extends Component {
 
   render() {
+    const masonryOpts = {
+      itemSelector: '.item',
+      transitionDuration: 2000
+
+    }
     return (
-      <div className={style.Images}>
+      <Masonry
+        className={style.Images}
+        options={masonryOpts}>
         {window.ITEMS.map((item) => {
-          return <Image key={item.id} item={item} />
+          return (
+            <figure className={'item'} key={'item-' + item.id}>
+              <img src={'static/' + item.id + '/fullsize.jpg'} />
+              <figcaption>
+                {item.title}
+              </figcaption>
+            </figure>
+          )
         })}
-      </div>
+      </Masonry>
     )
   }
 }

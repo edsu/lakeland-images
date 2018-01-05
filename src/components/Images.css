@@ -1,8 +1,12 @@
-.Counter {
-  font-size: 25pt;
+
+.Images figure {
+  display: inline-block;
+  width: 225px;
+  border: thin solid #ccc;
+  text-align: center;
+  padding: 5px;
 }
 
-.Counter button {
-  margin: 10px;
-  font-size: 25pt;
+.Images img {
+  width: 200px;
 }
