@@ -1,0 +1,142 @@
+{
+  "id": 332,
+  "url": "http://lakeland.mith.us/api/files/332",
+  "file_urls": {
+    "original": "http://lakeland.mith.us/files/original/lakeland-lola-giles-holding-violetta-sharps-1949_9dc3d4b84b.jpg",
+    "fullsize": "http://lakeland.mith.us/files/fullsize/lakeland-lola-giles-holding-violetta-sharps-1949_9dc3d4b84b.jpg",
+    "thumbnail": "http://lakeland.mith.us/files/thumbnails/lakeland-lola-giles-holding-violetta-sharps-1949_9dc3d4b84b.jpg",
+    "square_thumbnail": "http://lakeland.mith.us/files/square_thumbnails/lakeland-lola-giles-holding-violetta-sharps-1949_9dc3d4b84b.jpg"
+  },
+  "added": "2009-12-07T18:51:26+00:00",
+  "modified": "2017-12-28T11:32:07+00:00",
+  "filename": "lakeland-lola-giles-holding-violetta-sharps-1949_9dc3d4b84b.jpg",
+  "authentication": "2cc871f6dd3dd02b6f082c5b0b5dc6ce",
+  "has_derivative_image": true,
+  "mime_type": "image/jpeg",
+  "order": null,
+  "original_filename": "lakeland-Lola Giles holding Violetta sharps 1949.JPG",
+  "size": 71151,
+  "stored": true,
+  "type_os": "",
+  "metadata": null,
+  "item": {
+    "id": 407,
+    "url": "http://lakeland.mith.us/api/items/407",
+    "resource": "items"
+  },
+  "element_texts": [
+    {
+      "html": false,
+      "text": "432",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 72,
+        "url": "http://lakeland.mith.us/api/elements/72",
+        "name": "Width",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "759",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 73,
+        "url": "http://lakeland.mith.us/api/elements/73",
+        "name": "Height",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "8",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 74,
+        "url": "http://lakeland.mith.us/api/elements/74",
+        "name": "Bit Depth",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "3",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 75,
+        "url": "http://lakeland.mith.us/api/elements/75",
+        "name": "Channels",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "FileName:lakeland-lola-giles-holding-violetta-sharps-1949_9dc3d4b84b.jpg\nFileDateTime:1260211886\nFileSize:71151\nFileType:2\nMimeType:image/jpeg\nSectionsFound:ANY_TAG, IFD0, EXIF\nCOMPUTED:\n\thtml:width=\"432\" height=\"759\"\n\tHeight:759\n\tWidth:432\n\tIsColor:1\n\tByteOrderMotorola:0\n\tUserComment:LEAD Technologies Inc. V1.01\n\nExif_IFD_Pointer:26\nUserComment:LEAD Technologies Inc. V1.01\n",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 76,
+        "url": "http://lakeland.mith.us/api/elements/76",
+        "name": "Exif String",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "a:9:{s:8:\"FileName\";s:63:\"lakeland-lola-giles-holding-violetta-sharps-1949_9dc3d4b84b.jpg\";s:12:\"FileDateTime\";i:1260211886;s:8:\"FileSize\";i:71151;s:8:\"FileType\";i:2;s:8:\"MimeType\";s:10:\"image/jpeg\";s:13:\"SectionsFound\";s:19:\"ANY_TAG, IFD0, EXIF\";s:8:\"COMPUTED\";a:6:{s:4:\"html\";s:24:\"width=\"432\" height=\"759\"\";s:6:\"Height\";i:759;s:5:\"Width\";i:432;s:7:\"IsColor\";i:1;s:17:\"ByteOrderMotorola\";i:0;s:11:\"UserComment\";s:28:\"LEAD Technologies Inc. V1.01\";}s:16:\"Exif_IFD_Pointer\";i:26;s:11:\"UserComment\";s:28:\"LEAD Technologies Inc. V1.01\";}",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 77,
+        "url": "http://lakeland.mith.us/api/elements/77",
+        "name": "Exif Array",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "Array\n(\n)\n",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 78,
+        "url": "http://lakeland.mith.us/api/elements/78",
+        "name": "IPTC String",
+        "resource": "elements"
+      }
+    }
+  ],
+  "extended_resources": []
+}

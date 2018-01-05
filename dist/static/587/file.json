@@ -1,0 +1,126 @@
+{
+  "id": 613,
+  "url": "http://lakeland.mith.us/api/files/613",
+  "file_urls": {
+    "original": "http://lakeland.mith.us/files/original/572fb9ecedbc0d44b596fe22f82455bd.jpg",
+    "fullsize": "http://lakeland.mith.us/files/fullsize/572fb9ecedbc0d44b596fe22f82455bd.jpg",
+    "thumbnail": "http://lakeland.mith.us/files/thumbnails/572fb9ecedbc0d44b596fe22f82455bd.jpg",
+    "square_thumbnail": "http://lakeland.mith.us/files/square_thumbnails/572fb9ecedbc0d44b596fe22f82455bd.jpg"
+  },
+  "added": "2011-04-16T00:36:00+00:00",
+  "modified": "2017-12-28T11:32:07+00:00",
+  "filename": "572fb9ecedbc0d44b596fe22f82455bd.jpg",
+  "authentication": "a2eadb76f47fda8cd2cbeb3479552b9e",
+  "has_derivative_image": true,
+  "mime_type": "image/jpeg",
+  "order": null,
+  "original_filename": "lomax233.jpg",
+  "size": 1605163,
+  "stored": true,
+  "type_os": "",
+  "metadata": null,
+  "item": {
+    "id": 587,
+    "url": "http://lakeland.mith.us/api/items/587",
+    "resource": "items"
+  },
+  "element_texts": [
+    {
+      "html": false,
+      "text": "2401",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 72,
+        "url": "http://lakeland.mith.us/api/elements/72",
+        "name": "Width",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "1731",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 73,
+        "url": "http://lakeland.mith.us/api/elements/73",
+        "name": "Height",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "8",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 74,
+        "url": "http://lakeland.mith.us/api/elements/74",
+        "name": "Bit Depth",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "1",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 75,
+        "url": "http://lakeland.mith.us/api/elements/75",
+        "name": "Channels",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "FileName:572fb9ecedbc0d44b596fe22f82455bd.jpg\nFileDateTime:1302914160\nFileSize:1605163\nFileType:2\nMimeType:image/jpeg\nSectionsFound:ANY_TAG, IFD0, THUMBNAIL, EXIF\nCOMPUTED:\n\thtml:width=\"2401\" height=\"1731\"\n\tHeight:1731\n\tWidth:2401\n\tIsColor:0\n\tByteOrderMotorola:1\n\tThumbnail.FileType:2\n\tThumbnail.MimeType:image/jpeg\n\nOrientation:1\nXResolution:300/1\nYResolution:300/1\nResolutionUnit:2\nSoftware:Adobe Photoshop Elements 2.0\nDateTime:2008:07:19 21:19:07\nExif_IFD_Pointer:164\nTHUMBNAIL:\n\tCompression:6\n\tXResolution:72/1\n\tYResolution:72/1\n\tResolutionUnit:2\n\tJPEGInterchangeFormat:302\n\tJPEGInterchangeFormatLength:4161\n\nColorSpace:65535\nExifImageWidth:2401\nExifImageLength:1731\n",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 76,
+        "url": "http://lakeland.mith.us/api/elements/76",
+        "name": "Exif String",
+        "resource": "elements"
+      }
+    },
+    {
+      "html": false,
+      "text": "a:18:{s:8:\"FileName\";s:36:\"572fb9ecedbc0d44b596fe22f82455bd.jpg\";s:12:\"FileDateTime\";i:1302914160;s:8:\"FileSize\";i:1605163;s:8:\"FileType\";i:2;s:8:\"MimeType\";s:10:\"image/jpeg\";s:13:\"SectionsFound\";s:30:\"ANY_TAG, IFD0, THUMBNAIL, EXIF\";s:8:\"COMPUTED\";a:7:{s:4:\"html\";s:26:\"width=\"2401\" height=\"1731\"\";s:6:\"Height\";i:1731;s:5:\"Width\";i:2401;s:7:\"IsColor\";i:0;s:17:\"ByteOrderMotorola\";i:1;s:18:\"Thumbnail.FileType\";i:2;s:18:\"Thumbnail.MimeType\";s:10:\"image/jpeg\";}s:11:\"Orientation\";i:1;s:11:\"XResolution\";s:5:\"300/1\";s:11:\"YResolution\";s:5:\"300/1\";s:14:\"ResolutionUnit\";i:2;s:8:\"Software\";s:28:\"Adobe Photoshop Elements 2.0\";s:8:\"DateTime\";s:19:\"2008:07:19 21:19:07\";s:16:\"Exif_IFD_Pointer\";i:164;s:9:\"THUMBNAIL\";a:6:{s:11:\"Compression\";i:6;s:11:\"XResolution\";s:4:\"72/1\";s:11:\"YResolution\";s:4:\"72/1\";s:14:\"ResolutionUnit\";i:2;s:21:\"JPEGInterchangeFormat\";i:302;s:27:\"JPEGInterchangeFormatLength\";i:4161;}s:10:\"ColorSpace\";i:65535;s:14:\"ExifImageWidth\";i:2401;s:15:\"ExifImageLength\";i:1731;}",
+      "element_set": {
+        "id": 5,
+        "url": "http://lakeland.mith.us/api/element_sets/5",
+        "name": "Omeka Image File",
+        "resource": "element_sets"
+      },
+      "element": {
+        "id": 77,
+        "url": "http://lakeland.mith.us/api/elements/77",
+        "name": "Exif Array",
+        "resource": "elements"
+      }
+    }
+  ],
+  "extended_resources": []
+}
