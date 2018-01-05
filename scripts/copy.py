@@ -3,16 +3,26 @@
 # A hackish script to extract images and their metadata from a snapshot
 # of the Lakeland Omeka data at s3://mith-lakeland-data
 #
+# You need to first get the data:
+#
+#    cd /Volumes/ed/Data
+#    aws s3 sync s3://mith-lakeland-data
+#
+# and then run this script:
+#
+#    scripts/copy.py /Volumes/ed/Data/mith-lakeland-data
+#
 # resulting metadata and image files will be written to the static dir
 # in the project directory
 
 import os
+import sys
 import json
 
 from shutil import copyfile
 from os.path import join, isdir, dirname
 
-data_dir = '/Users/ed/Data/mith-lakeland-data'
+data_dir = sys.argv[1]
 output_dir =  join(dirname(__file__), '../static')
 
 items = []
