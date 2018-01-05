@@ -2,6 +2,7 @@ import React, { Component } from 'react'
 import Masonry from 'react-masonry-component'
 import Image from './Image'
 import style from './Images.css'
+import imageStyle from './Image.css'
 
 class Images extends Component {
 
@@ -11,8 +12,8 @@ class Images extends Component {
   }
 
   componentWillMount() {
+    window.ITEMS = this.shuffle(window.ITEMS)
     this.setState({
-      message: 'hi',
       items: window.ITEMS.slice(0, 12)
     })
   }
@@ -46,10 +47,24 @@ class Images extends Component {
     })
   }
 
+  shuffle(array) {
+    let currentIndex = array.length
+    while (currentIndex !== 0) {
+      const randomIndex = Math.floor(Math.random() * currentIndex)
+      currentIndex -= 1
+
+      const temporaryValue = array[currentIndex]
+      array[currentIndex] = array[randomIndex]
+      array[randomIndex] = temporaryValue
+    }
+    return array
+  }
+
   render() {
     const masonryOpts = {
-      itemSelector: '.item',
-      transitionDuration: 250
+      itemSelector: '.' + imageStyle.Image,
+      transitionDuration: 250,
+      fitWidth: true
     }
     return (
       <Masonry

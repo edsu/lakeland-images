@@ -1,15 +1,3 @@
-
-.Images figure {
-  display: inline-block;
-  width: 225px;
-  border: thin solid #ccc;
-  text-align: center;
-  padding: 5px;
-}
-
-.Images img {
-  width: 200px;
-}
-
-.Image figcaption {
+.Images {
+  margin: 0 auto;
 }

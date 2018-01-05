@@ -6,7 +6,7 @@
     "start": "webpack-dev-server --env dev",
     "build": "ENV=production webpack --progress --profile --colors",
     "clean": "rimraf dist/*",
-    "publish": "npm build && git subtree push --prefix dist origin gh-pages"
+    "publish": "npm run build && git commit -m 'latest' dist ; git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "better-npm-run": "0.0.15",
