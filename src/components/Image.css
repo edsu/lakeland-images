@@ -9,6 +9,10 @@
   cursor: pointer;
 }
 
+.ImageLoading {
+  display: none;
+}
+
 .Image img {
   width: 200px;
 }

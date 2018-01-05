@@ -9,11 +9,13 @@ class Images extends Component {
   constructor(props) {
     super(props)
     this.handleScroll = this.handleScroll.bind(this)
+    this.handleImagesLoaded = this.handleImagesLoaded.bind(this)
   }
 
   componentWillMount() {
     window.ITEMS = this.shuffle(window.ITEMS)
     this.setState({
+      loading: true,
       items: window.ITEMS.slice(0, 12)
     })
   }
@@ -47,6 +49,12 @@ class Images extends Component {
     })
   }
 
+  handleImagesLoaded() {
+    this.setState({
+      loading: false
+    })
+  }
+
   shuffle(array) {
     let currentIndex = array.length
     while (currentIndex !== 0) {
@@ -69,10 +77,16 @@ class Images extends Component {
     return (
       <Masonry
         className={style.Images}
+        onImagesLoaded={this.handleImagesLoaded}
         options={masonryOpts}>
         {this.state.message}
         {this.state.items.map((item) => {
-          return <Image key={'item-' + item.id} item={item} />
+          return (
+            <Image
+              key={'item-' + item.id}
+              loading={this.state.loading}
+              item={item} />
+          )
         })}
       </Masonry>
     )
