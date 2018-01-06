@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import PropTypes from 'prop-types'
 import Masonry from 'react-masonry-component'
 import Image from './Image'
 import style from './Images.css'
@@ -14,15 +15,12 @@ class Images extends Component {
     super(props)
     this.handleScroll = this.handleScroll.bind(this)
     this.handleImagesLoaded = this.handleImagesLoaded.bind(this)
-    this.filter = this.filter.bind(this)
   }
 
   componentWillMount() {
-    const allItems = this.shuffle(window.DATA.items)
+    this.props.filter([])
     this.setState({
-      loading: true,
-      allItems: allItems,
-      items: allItems.slice(0, 12)
+      loading: true
     })
   }
 
@@ -41,63 +39,13 @@ class Images extends Component {
     const docHeight = Math.max(body.scrollHeight, body.offsetHeight, html.clientHeight,  html.scrollHeight, html.offsetHeight)
     const windowBottom = windowHeight + window.pageYOffset
     if (windowBottom >= docHeight - 1) {
-      this.loadMore()
+      this.props.displayMore()
     }
-  }
-
-  loadMore() {
-    const items = this.state.items
-    const start = items.length
-    const end = start + 12
-    const newItems = this.state.allItems.slice(start, end)
-    this.setState({
-      items: items.concat(newItems)
-    })
   }
 
   handleImagesLoaded() {
     this.setState({
       loading: false
-    })
-  }
-
-  shuffle(array) {
-    let currentIndex = array.length
-    while (currentIndex !== 0) {
-      const randomIndex = Math.floor(Math.random() * currentIndex)
-      currentIndex -= 1
-
-      const temporaryValue = array[currentIndex]
-      array[currentIndex] = array[randomIndex]
-      array[randomIndex] = temporaryValue
-    }
-    return array
-  }
-
-  filter(itemType) {
-    let types = []
-    if (itemType === 'people') {
-      types = ['Photos People']
-    } else if (itemType === 'buildings') {
-      types = ['Photos Houses']
-    } else if (itemType === 'documents') {
-      types = ['Other Documents', 'Maps', 'Property Descriptions']
-    }
-
-    this.setState({
-      items: []
-    })
-
-    let newItems = this.shuffle(window.DATA.items)
-    if (types.length > 0) {
-      newItems = newItems.filter((i) => {
-        return types.indexOf(i.collection) >= 0
-      })
-    }
-
-    this.setState({
-      allItems: newItems,
-      items: newItems.slice(0, 12)
     })
   }
 
@@ -107,18 +55,40 @@ class Images extends Component {
       transitionDuration: 250,
       fitWidth: true
     }
+    const displayedItems = this.props.items.slice(0, this.props.position)
     return (
       <div className={style.Images}>
       <header>
-        <Home name={'Buildings'} size={25} onClick={() => {this.filter('buildings')}} />
-        <User size={25} onClick={() => {this.filter('people')}} />
-        <Document size={25} onClick={() => {this.filter('documents')}} />
-        <Refresh size={25} onClick={() => {this.filter('all')}} />
+
+        <span title="Houses">
+          <Home size={25} onClick={() => {
+            this.props.filter(['Photos Houses'])
+          }} />
+        </span>
+
+        <span title="People">
+          <User size={25} onClick={() => {
+            this.props.filter(['Photos People'])
+          }} />
+        </span>
+
+        <span title="Documents">
+          <Document size={25} onClick={() => {
+            this.props.filter(['Other Documents', 'Maps', 'Property Descriptions'])
+          }} />
+        </span>
+
+        <span title="All Items">
+          <Refresh size={25} onClick={() => {
+            this.props.filter([])
+          }} />
+        </span>
+
       </header>
       <Masonry
         onImagesLoaded={this.handleImagesLoaded}
         options={masonryOpts}>
-        {this.state.items.map((item) => {
+        {displayedItems.map((item) => {
           return (
             <Image
               key={'item-' + item.id}
@@ -130,6 +100,13 @@ class Images extends Component {
       </div>
     )
   }
+}
+
+Images.propTypes = {
+  filter: PropTypes.func,
+  displayMore: PropTypes.func,
+  items: PropTypes.array,
+  position: PropTypes.number
 }
 
 export default Images

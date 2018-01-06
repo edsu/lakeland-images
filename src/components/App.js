@@ -3,6 +3,7 @@ import { Route } from 'react-router-dom'
 import Header from './Header'
 import Footer from './Footer'
 import Images from '../containers/Images'
+import Item from '../containers/Item'
 
 import style from './App.css'
 
@@ -16,6 +17,7 @@ class App extends Component {
       <div className={style.App} id="App">
         <Header />
         <Route path={imagesPath} component={Images} />
+        <Route path="/item/:itemId" component={Item} />
         <Footer />
       </div>
     )
