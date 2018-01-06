@@ -6,7 +6,8 @@
     "start": "webpack-dev-server --env dev",
     "build": "ENV=production webpack --progress --profile --colors",
     "clean": "rimraf dist/*",
-    "publish": "npm run build && git commit -m 'latest' dist ; git subtree push --prefix dist origin gh-pages"
+    "zip": "mv dist lakeland && zip -r lakeland.zip lakeland && mv lakeland dist&& mv lakeland.zip static";
+    "publish": "npm run build && npm run zip && git commit -m 'latest' dist ; git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "better-npm-run": "0.0.15",
@@ -43,6 +44,7 @@
     "redux-devtools-extension": "^2.13.2",
     "webpack": "^2.5.1",
     "webpack-dev-server": "^2.9.7",
-    "webpack-hot-middleware": "^2.18.0"
+    "webpack-hot-middleware": "^2.18.0",
+    "zip-webpack-plugin": "^2.1.0"
   }
 }
