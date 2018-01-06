@@ -7,7 +7,6 @@ import Home from 'react-icons/lib/fa/home'
 import User from 'react-icons/lib/fa/user'
 import Document from 'react-icons/lib/fa/file-text-o'
 import Refresh from 'react-icons/lib/fa/refresh'
-import Archive from 'react-icons/lib/fa/file-archive-o'
 
 class Images extends Component {
 
@@ -115,7 +114,6 @@ class Images extends Component {
         <User size={25} onClick={() => {this.filter('people')}} />
         <Document size={25} onClick={() => {this.filter('documents')}} />
         <Refresh size={25} onClick={() => {this.filter('all')}} />
-        <a href=""><Archive size={25} /></a>
       </header>
       <Masonry
         onImagesLoaded={this.handleImagesLoaded}
