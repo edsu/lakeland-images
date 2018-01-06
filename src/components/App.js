@@ -9,10 +9,13 @@ import style from './App.css'
 class App extends Component {
 
   render() {
+    const proto = window.location.protocol
+    const imagesPath = proto === 'file:' ? '*index.html' : '/'
+    
     return (
       <div className={style.App} id="App">
         <Header />
-        <Route exact path="*" component={Images} />
+        <Route path={imagesPath} component={Images} />
         <Footer />
       </div>
     )

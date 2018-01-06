@@ -3,6 +3,10 @@ import Masonry from 'react-masonry-component'
 import Image from './Image'
 import style from './Images.css'
 import imageStyle from './Image.css'
+import Home from 'react-icons/lib/fa/home'
+import User from 'react-icons/lib/fa/user'
+import Document from 'react-icons/lib/fa/file-text-o'
+import Refresh from 'react-icons/lib/fa/refresh'
 
 class Images extends Component {
 
@@ -10,13 +14,15 @@ class Images extends Component {
     super(props)
     this.handleScroll = this.handleScroll.bind(this)
     this.handleImagesLoaded = this.handleImagesLoaded.bind(this)
+    this.filter = this.filter.bind(this)
   }
 
   componentWillMount() {
-    this.shuffle(window.DATA.items)
+    const allItems = this.shuffle(window.DATA.items)
     this.setState({
       loading: true,
-      items: window.DATA.items.slice(0, 12)
+      allItems: allItems,
+      items: allItems.slice(0, 12)
     })
   }
 
@@ -43,7 +49,7 @@ class Images extends Component {
     const items = this.state.items
     const start = items.length
     const end = start + 12
-    const newItems = window.DATA.items.slice(start, end)
+    const newItems = this.state.allItems.slice(start, end)
     this.setState({
       items: items.concat(newItems)
     })
@@ -68,6 +74,33 @@ class Images extends Component {
     return array
   }
 
+  filter(itemType) {
+    let types = []
+    if (itemType === 'people') {
+      types = ['Photos People']
+    } else if (itemType === 'buildings') {
+      types = ['Photos Houses']
+    } else if (itemType === 'documents') {
+      types = ['Other Documents', 'Maps', 'Property Descriptions']
+    }
+
+    this.setState({
+      items: []
+    })
+
+    let newItems = this.shuffle(window.DATA.items)
+    if (types.length > 0) {
+      newItems = newItems.filter((i) => {
+        return types.indexOf(i.collection) >= 0
+      })
+    }
+
+    this.setState({
+      allItems: newItems,
+      items: newItems.slice(0, 12)
+    })
+  }
+
   render() {
     const masonryOpts = {
       itemSelector: '.' + imageStyle.Image,
@@ -75,11 +108,16 @@ class Images extends Component {
       fitWidth: true
     }
     return (
+      <div className={style.Images}>
+      <header>
+        <Home name={'Buildings'} size={25} onClick={() => {this.filter('buildings')}} />
+        <User size={25} onClick={() => {this.filter('people')}} />
+        <Document size={25} onClick={() => {this.filter('documents')}} />
+        <Refresh size={25} onClick={() => {this.filter('all')}} />
+      </header>
       <Masonry
-        className={style.Images}
         onImagesLoaded={this.handleImagesLoaded}
         options={masonryOpts}>
-        {this.state.message}
         {this.state.items.map((item) => {
           return (
             <Image
@@ -89,6 +127,7 @@ class Images extends Component {
           )
         })}
       </Masonry>
+      </div>
     )
   }
 }

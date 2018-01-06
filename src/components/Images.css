@@ -1,3 +1,13 @@
 .Images {
   margin: 0 auto;
 }
+
+.Images svg {
+  margin-left: 20px;
+  margin-right: 20px;
+  color: gray;
+}
+
+.Images svg:hover {
+  color: black;
+}
