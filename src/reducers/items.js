@@ -1,9 +1,10 @@
-import { FILTER, DISPLAY_MORE } from '../actions/items'
+import { FILTER, DISPLAY_MORE, GET_ITEM } from '../actions/items'
 
 const chunkSize = 12
 
 const initialState = {
   items: [],
+  item: {},
   position: 0
 }
 
@@ -23,6 +24,16 @@ function shuffle(array) {
 export default function queue(state = initialState, action) {
 
   switch (action.type) {
+
+    case GET_ITEM: {
+      const item = window.DATA.items.find((i) => {
+        return i.id === action.itemId
+      })
+      return {
+        ...state,
+        item: item
+      }
+    }
 
     case FILTER: {
       shuffle(window.DATA.items)

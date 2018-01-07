@@ -2,10 +2,9 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import App from '../components/App'
 
-const mapStateToProps = () => {
-  return {
-  }
-}
+const mapStateToProps = state => ({
+  location: state.location
+})
 
 const actions = {
 }
