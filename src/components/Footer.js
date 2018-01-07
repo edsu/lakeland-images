@@ -3,9 +3,7 @@ import style from './Footer.css'
 
 const Footer = () => {
   return (
-    <footer className={style.Footer}>
-      Acme Corporation
-    </footer>
+    <footer className={style.Footer} />
   )
 }
 

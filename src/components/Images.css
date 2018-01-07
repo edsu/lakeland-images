@@ -12,3 +12,7 @@
 .Images svg:hover {
   color: black;
 }
+
+.Images header {
+  text-align: center;
+}

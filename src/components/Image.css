@@ -18,6 +18,7 @@
 }
 
 .Image figcaption {
+  color: black;
 }
 
 .Image:hover {
