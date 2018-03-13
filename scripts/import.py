@@ -84,7 +84,7 @@ for dirpath, dirnames, filenames in os.walk(data_dir):
 
 colls = counts.most_common(10)
 
-js = 'var DATA={items: %s, collections: %s};' % (
+js = 'var DATA={"items": %s, "collections": %s}' % (
     json.dumps(items, indent=2), 
     json.dumps(colls, indent=2)
 )
