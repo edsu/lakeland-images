@@ -1,4 +1,4 @@
-var DATA={items: [
+var DATA={"items": [
   {
     "publisher": "City of College Park", 
     "title": "City of College Park - lakeland special school moves next fall citizen call", 
@@ -2408,7 +2408,7 @@ var DATA={items: [
     "published": true, 
     "id": 534
   }
-], collections: [
+], "collections": [
   [
     "Photos Houses", 
     125
@@ -2449,4 +2449,4 @@ var DATA={items: [
     "Lakeland - African Americans in College Park_Chapter 1: Building a Community", 
     1
   ]
-]};
+]}
